@@ -1,28 +1,118 @@
-body {
+* {
     margin: 0;
     padding: 0;
-}
-
-header {
-    display: flex;
-    justify-items: center;
-    background-color: burlywood;
-    height: 50px;
-}
-
-#logo {
-    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    font-size: 13px;
 }
 
 img {
-    width: 160px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 90px;
 }
 
-a {
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+    position: fixed;
+}
+
+.menu {
+    display: inline-flex;
+}
+
+.header-container .menu li a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
-ul li {
+.header-container .menu li {
     list-style: none;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.header-container a {
+    color: white;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.shopping {
+    position: relative;
+    margin-left: 200px;
+}
+
+.toggle-container {
+    display: block;
+    margin-top: 32px;
+    margin-left: 20px;
+}
+
+.toggle-btn {
+    height: 2px;
+    width: 13px;
+    background-color: white;
+    margin-bottom: 2px;
+}
+
+.sect-1 {
+    background-image: url("https://wallpapercave.com/wp/wp2284543.jpg");
+    height: 500px;
+    background-position: center;
+}
+
+.sect-2 {
+    background-image: url("https://everydayastronaut.com/wp-content/uploads/2022/10/32652060737_4be1171d4a_o-800x533.jpg");
+    height: 500px;
+    background-position: center;
+}
+
+.sect-3 {
+    background-image: url("https://s.hdnux.com/photos/01/13/45/17/19813318/26/1200x0.jpg");
+    height: 500px;
+    background-position: center;
+}
+
+.sect-4 {
+    background-image: url("https://1721181113.rsc.cdn77.org/data/images/full/40526/us-space-spacex-starship.jpg?w=820");
+    height: 500px;
+    background-position: center;
+}
+
+.sect-5 {
+    background-image: url("https://techcrunch.com/wp-content/uploads/2021/03/Exu93-nU8AAMAiC.jpeg?w=1390&crop=1");
+    height: 500px;
+    background-position: center;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+}
+
+footer .footer ul li {
+    list-style: none;
+    color: white;
+    margin-right: 20px;
+}
+
+.footer  ul{
+    display: inline-flex;
+}
+
+footer .footer ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+
+footer .footer ul li a:hover {
+    color: gray;
 }
